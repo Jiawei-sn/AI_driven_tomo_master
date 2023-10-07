@@ -1,4 +1,6 @@
-# Cell Phantom Reconstruction
+# AI-driven Projection Tomography Reconstruction
+
+## Cell Phantom Reconstruction
 
 ## Overview
 - **Main Module**: `main.m` provides a step-by-step illustration of the cell model building, projection, and reconstruction processes.
