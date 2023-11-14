@@ -14,7 +14,7 @@ After executing these Python scripts, results, along with the computed rotation 
 
 ## HL60 Cell Reconstruction
 
-**Sample Data**: [Download here](https://cloudstore.zih.tu-dresden.de/index.php/apps/files/?dir=/mcfocr_tomo_data/Cell_example_data&fileid=595759307).
+**Test Data**: [Download here](https://doi.org/10.6084/m9.figshare.24523618).
 
 Modules:
 - **3D Reconstruction**: `main.m` facilitates the 3D tomographic reconstruction using pre-processed projections.
@@ -32,7 +32,7 @@ Visualization of the 3D tomographic reconstruction can be achieved using ImageJ/
      - Python-3.7.6
      - torch-1.12.1+cu116
      - CUDA:0 (NVIDIA GeForce RTX 3050 Laptop GPU, 4096MiB)
-   - **Resources**: [Sample data and weights](https://cloudstore.zih.tu-dresden.de/index.php/s/CxMp6P2K5mdjrZt)
+   - **Resources**: 
      - `train.py`: Trains the YOLOv5 network. Pre-trained weights are saved in 'best.pt'.
      - `detect.py`: Cell detection in extensive environments.
      
@@ -41,10 +41,8 @@ Visualization of the 3D tomographic reconstruction can be achieved using ImageJ/
 
 3. **Calibration**: 
    - `CalibrationOnOrginal3.py`: Calibrates each frame to a consistent central point by identifying the minimal enclosing circle.
-   - **Sample Data**: [Download here](https://cloudstore.zih.tu-dresden.de/index.php/apps/files/?dir=/mcfocr_tomo_data/Cell_calibration_segment_image_data&fileid=595761728).
 
 4. **Angle Calculation**:
-   - **Sample Data**: [Download here](https://cloudstore.zih.tu-dresden.de/index.php/apps/files/?dir=/mcfocr_tomo_data/Cell_angle_calculation_data&fileid=595761249).
      - `OpticalFlow_cell.py`: Detects and tracks the cell rotation features.
      - `PhiTheta_cell.py`: Determines the rotation angle using the tracked features.
 
