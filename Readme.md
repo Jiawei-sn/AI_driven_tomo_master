@@ -1,4 +1,4 @@
-# AI-driven Projection Tomography Reconstruction
+# AI-driven Projection Tomography Reconstruction [![DOI](https://zenodo.org/badge/701621740.svg)](https://zenodo.org/doi/10.5281/zenodo.10124420)
 
 ## Cell Phantom Reconstruction
 
