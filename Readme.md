@@ -1,4 +1,6 @@
 # AI-driven Projection Tomography Reconstruction [![DOI](https://zenodo.org/badge/701621740.svg)](https://zenodo.org/doi/10.5281/zenodo.10124420)
+# Please read our paper for more information: https://doi.org/10.1038/s41467-023-44280-1
+# Sun, J., Yang, B., Koukourakis, N. et al. AI-driven projection tomography with multicore fibre-optic cell rotation. Nature Communications 15, 147 (2024).
 
 ## Cell Phantom Reconstruction
 
